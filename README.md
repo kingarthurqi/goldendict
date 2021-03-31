@@ -23,6 +23,7 @@ paru -S goldendict
 cd ~/Downloads && git clone https://github.com/kingarthurqi/goldendict.git  
 mv ~/Downloads/goldendict/dict ~/Document
 mv ~/Downloads/goldendict/config ~/.goldendict/
+rm -rf ~/Downloads/goldendict
 ```
 2. 添加谷歌翻译和发音支持
 ```
